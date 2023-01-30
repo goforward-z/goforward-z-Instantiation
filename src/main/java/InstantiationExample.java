@@ -1,3 +1,4 @@
+import java.lang.reflect.InaccessibleObjectException;
 
 public class InstantiationExample {
     /**
@@ -18,6 +19,7 @@ public class InstantiationExample {
      * @return any object.
      */
     public Object instantiateANewObject(){
-        return null;
+        Object myObject = new Object();
+        return myObject;
     }
 }
